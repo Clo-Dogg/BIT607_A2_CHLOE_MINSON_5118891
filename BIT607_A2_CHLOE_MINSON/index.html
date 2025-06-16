@@ -6,37 +6,35 @@ BIT607 A2 CHLOE MINSON 5118891
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snazzy Paws Grooming - Home</title>
-    <!-- Fix: Use relative path without "styles/" if CSS is in root -->
-    <link rel="stylesheet" href="style.min.css"> 
+    <link rel="stylesheet" href="styles/style.min.css">
+    <!-- Hidden assignment identifier -->
+    <meta name="assignment" content="BIT607 A2 CHLOE MINSON 5118891">
 </head>
 <body>
     <header>
-        <!-- Added your assignment identifier -->
-        <p style="display:none;">BIT607 A2 CHLOE MINSON 5118891</p> 
         <h1>Snazzy Paws Grooming</h1>
         <nav>
             <ul>
-                <!-- Fix: Ensure all paths are relative to root -->
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" aria-current="page">Home</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="booking.html">Book Now</a></li>
-                <li><a href="booking.html">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section class="hero">
-            <!-- Fix: Use relative path from root -->
-            <img src="assets/images/dog-hero.jpg" alt="Happy groomed dog">
+            <img src="assets/images/dog-hero.jpg" alt="Well-groomed happy dog" width="800" height="400">
             <h2>Professional Dog Grooming in Hamilton</h2>
+            <p>Your pet deserves the best care</p>
         </section>
     </main>
 
     <footer>
-        <p>© Snazzy Paws Grooming</p>
-        <p>Opening Hours: Mon-Sat, 9am–5pm</p>
+        <p>© 2023 Snazzy Paws Grooming</p>
+        <p>Opening Hours: Monday-Saturday, 9am–5pm</p>
     </footer>
 </body>
 </html>
